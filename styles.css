@@ -23,8 +23,67 @@ body {
     font-size: 40px;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 40%;
     transform: translate(-50%, -50%);
+}
+
+.mrs-claus {
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+
+.tree {
+    font-size: 60px;
+    position: absolute;
+}
+
+.tree1 {
+    top: 20px;
+    left: 30px;
+}
+
+.tree2 {
+    top: 50px;
+    right: 40px;
+}
+
+.tree3 {
+    bottom: 80px;
+    left: 20px;
+}
+
+.tree4 {
+    bottom: 30px;
+    right: 60px;
+}
+
+.tree5 {
+    top: 150px;
+    left: 10px;
+}
+
+.tree6 {
+    top: 120px;
+    right: 10px;
+}
+
+.tree7 {
+    bottom: 81px;
+    left: 150px;
+}
+
+.tree8 {
+    bottom: 140px;
+    right: 150px;
+}
+
+.tree9 {
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .bobbing {
