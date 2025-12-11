@@ -17,6 +17,7 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
+    overflow: hidden;
 }
 
 .santa {
@@ -86,6 +87,61 @@ body {
     transform: translateX(-50%);
 }
 
+.reindeer {
+    font-size: 45px;
+    position: absolute;
+}
+
+.snowman {
+    font-size: 50px;
+    position: absolute;
+}
+
+.elf {
+    font-size: 25px;
+    position: absolute;
+}
+
+.elf1 {
+    top: 40px;
+    left: 80px;
+}
+
+.elf2 {
+    bottom: 40px;
+  right: 186px;
+}
+
+.elf3 {
+    top: 180px;
+    left: 200px;
+}
+
+.elf4 {
+    bottom: 120px;
+    left: 80px;
+}
+
+.elf5 {
+    top: 140px;
+  right: 77px;
+}
+
+.elf6 {
+    bottom: 40px;
+    left: 250px;
+}
+
+.snowman1 {
+    top: 70px;
+    left: 350px;
+}
+
+.snowman2 {
+    bottom: 100px;
+    right: 200px;
+}
+
 .bobbing {
     animation: bob 2s ease-in-out infinite;
 }
@@ -119,4 +175,21 @@ body {
     font-weight: bold;
     text-align: center;
     font-family: Arial, sans-serif;
+}
+
+.snowflake {
+    font-size: 10px;
+    position: absolute;
+    color: #87CEEB;
+    pointer-events: none;
+    animation: fall linear;
+}
+
+@keyframes fall {
+    from {
+        top: -30px;
+    }
+    to {
+        top: var(--fall-end);
+    }
 }
