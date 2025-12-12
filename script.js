@@ -19,7 +19,7 @@ christmasBox.addEventListener('click', function() {
 });
 
 // snowflakes
-const maxSnowflakes = 20;
+const maxSnowflakes = 30;
 let snowflakeCount = 0;
 
 function createSnowflake() {

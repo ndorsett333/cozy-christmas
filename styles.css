@@ -24,7 +24,7 @@ body {
     font-size: 40px;
     position: absolute;
     top: 50%;
-    left: 40%;
+    left: 45%;
     transform: translate(-50%, -50%);
 }
 
@@ -32,7 +32,7 @@ body {
     font-size: 40px;
     position: absolute;
     top: 50%;
-    left: 60%;
+    left: 55%;
     transform: translate(-50%, -50%);
 }
 
@@ -85,6 +85,7 @@ body {
     top: 80px;
     left: 50%;
     transform: translateX(-50%);
+    font-size: 75px;
 }
 
 .reindeer {
@@ -103,7 +104,7 @@ body {
 }
 
 .elf1 {
-    top: 40px;
+    top: 123px;
     left: 80px;
 }
 
@@ -142,6 +143,35 @@ body {
     right: 200px;
 }
 
+.reindeer1 {
+    top: 460px;
+    left: 154px;
+}
+
+.reindeer2 {
+    top: 450px;
+  left: 100px;
+}
+
+.present {
+    position: absolute;
+}
+
+.present1 {
+    top: 160px;
+  left: 250px;
+}
+
+.present2 {
+    top: 164px;
+  left: 230px;
+}
+
+.present3 {
+    top: 160px;
+  left: 260px;
+}
+
 .bobbing {
     animation: bob 2s ease-in-out infinite;
 }
@@ -152,6 +182,26 @@ body {
     }
     50% {
         transform: translate(-50%, -60%);
+    }
+}
+
+.fastbobbing {
+    animation: bob 1s ease-in-out infinite;
+}
+
+.tilting {
+    animation: tilt 4s ease-in-out infinite;
+}
+
+@keyframes tilt {
+     0% {
+        transform: rotate(-8deg);
+    }
+    50% {
+        transform: rotate(8deg);
+    }
+    100% {
+        transform: rotate(-8deg);
     }
 }
 
